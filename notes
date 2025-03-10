@@ -1,0 +1,58 @@
+scripting pl,---js ,ts,vb,shell,perl,python
+functional&procedure pl-->c&python
+oop- pl-->java,.net,c++,python
+
+java-1995-feb-20-version-3.13
+python-1991(gudio van rassoom)
+
+python is a general purpose programming language
+we are solving real world problems using object
+python is supporting all programming languages
+what is idle -->integrated learning environment
+thonny after vs code and py charm and jupiter note book (jn)
+
+
+compiler and interpreter
+interpretator--converting from high level to low level
+interpreter-->analize source code execute line by line
+compiler--->execute at a time
+python is a human readable   format code
+we convert to 
+
+it is a dynamic programming language and high level and dynamic typed and interpretated pl
+
+
+indentation nmeans maintain the bocks
+
+using def keyword we create function 
+
+indentation means we give four spece like    hii
+
+
+we want to maintain dummy block we use pass method
+
+
+ class contains variable and methods ,
+
+ comments are non executable executable,
+ using .py extension,
+ python is based on interpretator,
+  we use vs code and tonny,
+  identifiers rules ,,,
+  should contain a-z,
+  A-z
+  0-9
+  and _ underscore
+  should not starts with digits,
+  should not use any special characters and symbols
+  keyword's are nnot use like def while 
+  identifiers sre case sensitive,
+  35 keywords are there in python,
+  some words are reserved for specific purpose,
+
+  we can't use keywords as identifiers., like ,var ,let ,class
+
+
+
+
+
