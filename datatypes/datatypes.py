@@ -48,7 +48,7 @@
 
 #how to represent int data type in python
 
-# a=3487 # how to represent int format using #decimal format -base -10---meands 0-10
+# a=3487 # how to represent int format using #decimal format -base -10---meands 0-9
 # b=0b1111 #binary format--base-2--zero&ones
 # c=0o15 #octal format---base-8
 # d=0xabd # hexa decimal format---base-16
