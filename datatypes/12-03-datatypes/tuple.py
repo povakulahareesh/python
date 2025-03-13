@@ -3,7 +3,7 @@
 # tuple
 ## if u want to represent group of elements   (or) values  as one entity
 # duplicates and hetrerogeneous are allowed 
-# list elements are  stored based  on indexing
+# tuple elements are  stored based  on indexing
 # negative indexing -1,-2,-3----
 # only in python allow negative indexing
 # insertion order maintained

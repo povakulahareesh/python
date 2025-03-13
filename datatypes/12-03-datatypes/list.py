@@ -6,7 +6,7 @@
 # negative indexing -1,-2,-3----
 # only in python allow negative indexing
 # insertion order maintained
-# iterater using for looop and while loop
+# iterater using for loop and while loop
 # it is mutable
 
 # gitignore,

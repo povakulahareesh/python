@@ -1,12 +1,12 @@
 
 # set 
-# group of elements are as one entity
+# group of elements  as one entity
 # duplicates are not ALLOwed 
 # heterogeneous elements are allowed
 # order not maintained why beacuse indexing concept is not applicable
 # indexing is not applicable 
 # iterate using for loop
-# 
+
 
 
 
@@ -19,6 +19,10 @@ eids={"fd","trews","gfd","fds","true",True}
 print (s)
 print (w)
 print (eids)
+
+
+# eids[0]="rds" //type error
+print(eids)
 
 
 print (type(s))
