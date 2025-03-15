@@ -1,4 +1,4 @@
-# // control flow statements -->conditional statements --> if statement --> if else --> if elif else-->itrerative statements-->for & while loop
+# // control flow statements -->conditional statements --> if statement --> if else --> if elif else--> if elif--->itrerative statements-->for & while loop
 
 # // wap to print verify given number is even or odd
 

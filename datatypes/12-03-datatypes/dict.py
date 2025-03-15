@@ -10,10 +10,13 @@
 # 
 
 
-# a={"a":122,"b":"ddddd"}
+# a={
+#     "a":122,
+#     "b":"ddddd"
+#     }
 # print (a)
 # print (a["a"])
-# print (a["dd"])    # key is not available it will give key error
+# print (a["b"])    # key is not available it will give key error
 
 
 #  membership operator
@@ -35,5 +38,23 @@ print("rrr" in unames)
 print("ds" in enames)
 print(101 in eids)
 print("r" in ename)
-print("r" in ename)
+# print("r" in unames)
 print(5 in values)
+
+
+
+# d1={}
+# print (d1)
+# print(type(d1))
+
+# emp={
+#     # key must be in the form of string in python
+#     "d":222,
+#     "d":"hareesh",
+#     "balasalary":45000.77
+# }
+# print(emp)
+# print(type(emp))
+# print (emp["d"])
+# print (emp["balasalary"])
+# print (emp["bal"])  #key error

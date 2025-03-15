@@ -6,7 +6,7 @@
 #     print ("given number is even")
 
 # else:
-#     print("given num is odd")
+#     print("given num -+is odd")
 
 
 
