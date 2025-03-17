@@ -5,10 +5,10 @@
 # equality--> ==
 # assignment-->=
 # special op--> identity op& is,is not ---> like a comparission 
-# mrmbership op-->in ,not in ----> id  we want to check given  data in our variable are not 
+# mrmbership op-->in ,not in ----> if we want to check given  data in our variable are not 
 # bitwise op 
 
-
+  
 # arithmetic operators
 
 # addition&concatination

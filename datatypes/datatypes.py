@@ -169,7 +169,7 @@
 # byte array
 # frozenset
 
-# l1=[22,22,33,4,56,77,11,673,72,6]
+# l1=[22,22,33,4,56,77,11,63,72,6]
 # b=bytes(11)
 # ba=bytearray(l1)
 # print(type(l1))
@@ -321,25 +321,25 @@
 # important datatypes
 # list ,tuple,set,dict,string
 
-# all types
-v1=100
-v2=100.00
-v3="jaganmama"
-v4=10+4j
-v5=True
-v6=[]
-v7=()
-v8={77,33,99}
-v9={}
-v10=bytes([10,20,30,30])
-v11=bytearray([10,20,30,30])
-v12=frozenset({10,2,3,4,5,6,7,88,})
-v13=range(10)
-# am writing one function
-def get_deatails():
-    pass
-v14=get_deatails()
-print(v14)
+# # all types
+# v1=100
+# v2=100.00
+# v3="jaganmama"
+# v4=10+4j
+# v5=True
+# v6=[]
+# v7=()
+# v8={77,33,99}
+# v9={}
+# v10=bytes([10,20,30,30])
+# v11=bytearray([10,20,30,30])
+# v12=frozenset({10,2,3,4,5,6,7,88,})
+# v13=range(10)
+# # am writing one function
+# def get_deatails():
+#     pass
+# v14=get_deatails()
+# print(v14)
 
 
 

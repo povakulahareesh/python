@@ -10,6 +10,7 @@
 
 # i = 0
 # while i < 10:  # Loop runs once
+#     # print(i)
 #     print("gm")
 #     # i += 1
 #     i=i+1
@@ -51,9 +52,10 @@
 
 
 
-# # 100 to 51
-# i=100
-# while i >=51:
+# 100 to 51
+
+# i=101
+# while i >51:
 #     i=i-1
 #     print(i)
 
@@ -93,15 +95,15 @@
 
 
 
-# employee_name={'rahul','vinay','dhanush','manoj','kishan'}
-employee_name=['rahul','vinay','dhanush','manoj','kishan']
-# employee_name=('rahul','vinay','dhanush','manoj','kishan')
+# # employee_name={'rahul','vinay','dhanush','manoj','kishan'}
+# employee_name=['rahul','vinay','dhanush','manoj','kishan']
+# # employee_name=('rahul','vinay','dhanush','manoj','kishan')
 
-# employee_name={"id":111,"name":"hareesh"}
-i=10# Initializing variable i to 0
-while i==10: # While loop that runs as long as i is 0
-    print(employee_name) # Prints the entire list of employee names
-    i=i+1  # Increments i by 1, making it 1, which stops the loop
+# # employee_name={"id":111,"name":"hareesh"}
+# i=10# Initializing variable i to 0
+# while i==10: # While loop that runs as long as i is 0
+#     print(employee_name) # Prints the entire list of employee names
+#     i=i+1  # Increments i by 1, making it 1, which stops the loop
 
 
 
