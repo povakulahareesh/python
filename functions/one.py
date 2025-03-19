@@ -23,12 +23,13 @@ in pythonn functions return multiple values
 
 
 # def add (a,b):
-#     print(a+b)
+#     # print(a+b)
 
-#     #   return a+b
+#       return a+b
 #     #   print(a+b)
-# add(1,2)
+# print(add(1,2))
 
+#   without parameters
 
 # def add ():
 #      print("addition")
@@ -63,6 +64,20 @@ in pythonn functions return multiple values
 # r1=wish(1,2)
 # print(r1)
 
+
+
+# def add (a,b):
+#     # print(a+b)
+
+#     return a+b
+#     #   print(a+b)
+# # r1=add(1,2)
+# # print(r1)
+
+# print (add(1,2))
+
+
+
 # r2=wish(1,23)
 # print(r2)
  
@@ -72,10 +87,10 @@ python -->innerv function --> namless ananymousfunction -->lamda function-->map(
 '''
 
 # list tuple set dict crud  methods
-# 
+
 
 # l=["ds","ee","pp","pp","yuio","ertyui","sdfghjk"]
-# # p(l.index("ee") )# return index value of specifiedc element
+# # print(l.index("ee") )# return index value of specifiedc element
 # # l.append("hareesh") # add element into list
 # # l.remove("ee") # remove specified elements
 # # l.pop() #pop remove end of the list element
@@ -105,9 +120,92 @@ python -->innerv function --> namless ananymousfunction -->lamda function-->map(
 
 # sort method 
 
-l1=[1,25,689,2357,23412,66,3]
-l1.sort ()   # print in proper way # print in assending order or decending order 
-print (l1)
+# l1=[1,25,689,2357,23412,66,3]
+# l1.sort ()   # print in proper way # print in assending order or decending order 
+# print (l1)
 
 
 # python modules and python functions
+
+
+
+
+# l=[1,2,33,3,4,4,5,5,6,6,7,8,222,33]
+# # l.append("hii")
+# # l.sort()
+# # l.remove(1)
+# # l.pop()
+# # l.clear()
+# # print(l.index(4))
+# # l.reverse()
+# # l.insert(0,"kk")
+# # print(l.count(1))
+# # l.extend()
+
+# print(l)
+
+# ============================================================
+
+
+# dict 
+# group of key values as one entity is known as dict
+# duplicatekeys are not allowed 
+# duplicate values are allowed
+# 
+
+
+
+emp={"a":111,
+     "b":"hareesh",
+     "c":229003}
+# print(emp.keys())
+# print(emp)
+
+# print(emp.keys())
+# print(emp.values())
+# print(emp.items())
+# print(emp["a"])
+# print(emp["b"])
+# print(emp["c"])
+# print(emp["d"])  #key error
+# # specefied key is not there in our dict we get key error
+
+
+
+# # print keys
+# for key  in emp.keys():
+#     print(key)
+
+
+#     # print values
+# for value  in emp.values():
+#     print(value)
+    
+#     #  if we want both keys and valuees usin item
+#     # item means combination of key , value
+
+
+# for item  in emp.items():
+#     print(item)
+
+
+
+# pop and pop item
+# p0p-->remove key  value  of specified key
+# popitem -->remove key  value  of specified keyr 
+# or remove orbitary item
+# tuple is immutable because we can't doo any insert or delete  operations
+
+
+emp={"a":111,
+     "b":"hareesh",
+     "c":229003}
+# remove key  value  of specified key
+emp.pop("b")
+print(emp)
+# pop item used to remove object end of the key and value
+emp.popitem() # pop item used to remove object end of the key and value
+print(emp)
+# remove key  value  of specified key
+
+

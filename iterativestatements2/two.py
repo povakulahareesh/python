@@ -119,6 +119,7 @@
 #     print(employees[i]['ename'])
 #     i+=1
 
+# ================================================================================
 
 
 # Print all male employee names using for loop
@@ -240,7 +241,7 @@
 #         print(employees[i]['ename'])
 #     i+=1
 
-
+# ============================================================================================
 
 
 employees=[{'eid':1,'ename':'Izak','gender':'Male'},
@@ -361,12 +362,27 @@ employees=[{'eid':1,'ename':'Izak','gender':'Male'},
 
 
 # i=0
-# # j=0
+# j=0
 # while i<=len(employees)-1:
 #     if employees[i]['gender']  =='Female':
-#       print(employees)[i]['ename']
-#       i=i+1
+#         print(employees[i]['ename'])
+#         j=j+1
+#     i=i+1
+# print(j)    
 
+
+
+# main program
+
+# i=0
+# count=0
+# while i<=len(employees)-1:
+#     if employees[i]['gender']=='Female':
+#         print(employees[i]['ename'])
+#         count=count+1
+#     i=i+1
+# print(count)
+ 
 
 
 # i=0
