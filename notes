@@ -6,6 +6,11 @@ java-1995-feb-20-version-3.13
 python-1991(gudio van rassoom)
 
 python is a general purpose programming language
+it is high level programming language
+i has less code 
+it is a object oriented programming language
+it is also used for web developing
+it is also scripting language
 we are solving real world problems using object
 python is supporting all programming languages
 what is idle -->integrated learning environment
@@ -15,7 +20,8 @@ thonny after vs code and py charm and jupiter note book (jn)
 compiler and interpreter
 interpretator--converting from high level to low level
 interpreter-->analize source code execute line by line
-compiler--->execute at a time
+interpreter-->it execute line by line ,python is a interpreter
+compiler--->execute at a time ,,java ,c,c++
 python is a human readable   format code
 we convert to 
 
