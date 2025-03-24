@@ -1,0 +1,97 @@
+user defined modules and inbuilt modules
+every python file acting as a modules
+
+ module containes  - variable st ,function st, class st ==== module members
+
+ various posibilites  to import the modules
+==============================
+ import modulename 
+
+ ex: import central
+  import os 
+  import sys
+  import csv
+===========================
+   import modulename1,  modulename2, modulename3
+ex:
+import os,sys ,csv
+ import modulename as alias name
+ 
+ ex:
+
+import math as rajini 
+===============================
+// multipleb alias
+
+   import modulename1 as one ,  modulename2 as two , modulename3 as three
+
+
+====================================
+ from modulename  import members
+
+ ex:  from math import pi 
+
+===================================
+
+from modulename import* --> means --import all members 
+
+=========================================
+
+ from modulename  import member as alias name
+
+========================================
+random module
+========================================
+several functions to generate  random values 
+
+- i want print 10 random numbers range b/w 10 to 100 
+- 
+ we are going to use one function that is"randint"
+
+
+ there are so many random names
+
+randint() : to gernerate random integers   between given numbers
+randrange(): nothing but return the random numbers from the range
+
+
+random() : generate float values  between 0 to  1 (exclusive)
+uniform()
+choice() :  i won't generate any random number  but take some list only  
+
+
+randint:example
+syntax:
+ from random import randint
+
+ for x in range(10)
+ print(randint(10,100))
+
+
+ random :example
+ syntax:
+
+ from random import random 
+  for x in range (10):
+  print(random()) 
+ 
+
+
+  syntax of randrange:([start],[stop],[step])
+
+
+
+syntax of choice():
+
+it won't generate  any random numbers  buty it will return random element from list/tuple/set/dict/ sequence / sequence  --> means sting 
+
+enames=["fghj","fghjk","jkidfgh","ghjkl"]
+
+
+from random  import choice
+// i want to print 10 values 
+ print x in range (12):
+ print (choice (list)) 
+
+
+

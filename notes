@@ -1,11 +1,19 @@
-scripting pl,---js ,ts,vb,shell,perl,python
+scripting pl,---js ,ts,vb,shell,perl,python.net,
 functional&procedure pl-->c&python
 oop- pl-->java,.net,c++,python
 
+python supporting opps
+python supporting funcytional pl
+python supporting scripting pl
+
+high level means --> human readable formate code 
+
+
 java-1995-feb-20-version-3.13
 python-1991(gudio van rassoom)
+  python is high level ,interpretated  ,gener purpose programming language 
 
-python is a general purpose programming language
+python is a general purpose  high level programming language
 it is high level programming language
 i has less code 
 it is a object oriented programming language
@@ -17,16 +25,21 @@ what is idle -->integrated learning environment
 thonny after vs code and py charm and jupiter note book (jn)
 
 
+
+data means python
+secure means java
+'''
+
 compiler and interpreter
 interpretator--converting from high level to low level
-interpreter-->analize source code execute line by line
+interpreter-->analize source code execute line by line--<python,js
 interpreter-->it execute line by line ,python is a interpreter
-compiler--->execute at a time ,,java ,c,c++
+compiler---> source code execute at a time ,,java ,c,c++
 python is a human readable   format code
 we convert to 
 
 it is a dynamic programming language and high level and dynamic typed and interpretated pl
-
+--   analyse the hole  source  any syntax error occurs stop the compilation process 
 
 indentation nmeans maintain the bocks
 
@@ -51,7 +64,7 @@ we want to maintain dummy block we use pass method
   and _ underscore
   should not starts with digits,
   should not use any special characters and symbols
-  keyword's are nnot use like def while 
+  keyword's are  not use like def while 
   identifiers sre case sensitive,
   35 keywords are there in python,
   some words are reserved for specific purpose,

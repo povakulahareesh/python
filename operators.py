@@ -5,7 +5,7 @@
 # equality--> ==
 # assignment-->=
 # special op--> identity op& is,is not ---> like a comparission 
-# mrmbership op-->in ,not in ----> if we want to check given  data in our variable are not 
+# membership op-->in ,not in ----> if we want to check given  data in our variable are not 
 # bitwise op 
 
   
@@ -34,7 +34,7 @@
 # equality--> ==
 # assignment-->=
 # special op--> identity op& is,is not  
-# mrmbership op-->in ,not in
+# membership op-->in ,not in
 # bitwise op 
 
 
@@ -57,12 +57,14 @@
 # a=(66,33,45,67,8,122,2,)# duplicates are  not allowed
 # eids={22,33,44,556,77,88,}
 # enames=["ds","rew","5rew","fds"]
+# hii="haruedds"
+# print("h" in hii)
 # print("ds" in enames)
 # print("d" in enames)
 # print("d"  not in enames)
 # print("ds" is not enames) #is used for comparission
-# print("ds" is "ds")
-# is address comparision
+# # print("ds" is "ds")
+# # is address comparision
 
 
 
@@ -116,13 +118,13 @@
 
 # logical and relational operators  always result is bool value 
 
-print (100 and 10)
-print(True and False)
-print(100>1)
-print(100<12343)
-print(100 and 0)
+# print (100 and 10)
+# print(True and False)
+# print(100>1)
+# print(100<12343)
+# print(100 and 0)
 
-# first one is true second one is going validate
-# # first one is false always false 
+# # first one is true second one is going validate
+# # # first one is false always false 
 
-print(True>False)
+# print(True>False)

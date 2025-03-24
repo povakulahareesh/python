@@ -5,6 +5,13 @@
 a=(66,33,45,67,8,122,2,)# duplicates are  not allowed
 eids={22,33,44,556,77,88,}
 enames=["ds","rew","rew","fds"]
+
+'''
+"ds" is a string, while enames is a list.
+
+The is not operator checks if they are different objects in memory.
+
+'''
 print("ds" is not enames) #is used for comparission
 print("ds" is "ds")
 print("ds" in enames)

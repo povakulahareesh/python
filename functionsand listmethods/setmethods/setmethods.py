@@ -8,7 +8,7 @@
 # does not allowed duplicates
 # order not maintained because indexing not possible
 # set object we can iterate using  for loop
-# hoe to create  empty set 
+# how  to create  empty set 
 # s2=set{} 
 # s1.copy()
 
@@ -137,13 +137,13 @@ if element  is not present  it doesn't display error
 
 
 
-# s1={10,20,30,40}
-# s2={30,40,50,60}
-# print(s1|s2) #or operator
-# print(s1 and s2)
-# print(s1-s2)
-# print(s2-s1)
-# print(s1^s2)
+s1={10,20,30,40}
+s2={30,40,50,60}
+print(s1|s2) #or operator
+print(s1 and s2)
+print(s1-s2)
+print(s2-s1)
+print(s1^s2)
 
 
 
