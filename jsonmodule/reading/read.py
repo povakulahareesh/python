@@ -19,11 +19,23 @@
 
 
 
-f=open('ch.txt','r')
-f2=open('abc.txt','w')
-f1=f.read()
-print(f1)
-f2.write(f1)
-print("creting file ")
-f.close()
-f2.close()
+# f=open('ch.txt','r')
+# f2=open('abc.txt','w')
+# f1=f.read()
+# print(f1)
+# f2.write(f1)
+# print("creting file ")
+# f.close()
+# f2.close()
+
+
+# r=open('ch.txt','r')
+# z=open('hari.txt','w')
+# # r=open('ch.txt','r')
+
+# r1=r.read()
+# print(r1)
+# z1=z.write(r1)
+# print("file created ")
+# r.close()
+# z.close()

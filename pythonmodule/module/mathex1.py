@@ -11,4 +11,4 @@ print(floor(9.4))
 # math module containes few members are there 
 #  
 
-#  how to find the   module members  uding help() and dir 
+#  how to find the   module members  using help() and dir 
