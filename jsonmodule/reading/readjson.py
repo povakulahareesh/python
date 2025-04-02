@@ -24,3 +24,23 @@
 # print(f)
 # print(type(f))
 
+# a=10
+# print(a)
+
+
+#  json module 
+
+
+
+'''The function json.loads() is used in Python to convert a JSON-formatted string into a corresponding Python'''
+
+
+
+import json
+emp='''["hhhh","iiii","ghhgg","jjjjj","rrtyyy","ttrryyt","oiiiii","Pppp"]'''
+print(emp)
+print(type(emp))
+f=json.loads(emp)
+print(f)
+print(type(f))
+
