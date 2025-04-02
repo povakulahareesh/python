@@ -1,0 +1,18 @@
+function --> inner function ---> recursive function ---> lambda function or anonymous --> name less 
+ananymous function and  decarator nad generator 
+
+
+python functon variables are two types 
+
+
+local variable : inside function only  and # scope is within the function
+global variable:  entire file or module 
+
+
+
+
+we try to understand  first --> function -arguments -->
+ inner function --> imp is > how to execute inner function outside a function
+ -- how to convert local variable to global variable 
+
+ tommorow start with   once more  variables then recursive function  then lambda function then  decorator    

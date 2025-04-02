@@ -54,14 +54,53 @@
 #   only python negative index is possible for  list  and
 #  in function level we can return multiple values only  
 #   function is going to return multiple values  
-#   
+# #   
    
-def add (a,b):
-    # return 10,20
-    return a+b 
-print(add(1,2))
-#  java and java script return only single value  
-#  python return multiple values 
+# def add (a,b):
+#     return 10,20
+#     # return a+b 
+# print(add(1,2))
+# #  java and java script return only single value  
+# #  python return multiple values 
+
+# ==================================
+
+#  nested function 
+#  functionn within  a function known as nested function 
+
+
+# def add():
+#     print("add")
+    
+#     def sub():
+#         print("sunset")
+#     sub() 
+# add() 
+
+# ===================================
+#  orbitary arguments 
+#  when we awant to give multiple aruments  on  single parameter we can use (*a)
+
+
+# def add(*a):
+#     print("this is function",a)
+# add(1,2,3)    
+
+# =====================================
+#  keyword arguments 
+#  whenn ewe want to give  arguments  to paramenters in this form (a=1,b=2) we use(**a)
+def add(**a):
+
+    print(a)
+add(a=1,b=2)    
+
+# ================================
+# def add(a,b): # function defination and parameter 
+#     return a+b # function body 
+# print(add(2,3)) # function call and arguments   
+# ============================================
+
+
 
   
 
