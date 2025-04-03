@@ -1,6 +1,6 @@
 what is function ?
  --> group of statements for specific purpose  known as function
- -- whenever we want we are going to invoke the function   
+ -->  whenever we want we are going to invoke the function   
  --functions are code  reusability
 -- how to create function in python ?---> using def keyword 
 using def keyword we can create function 
@@ -18,11 +18,17 @@ def login():
 print("login success")
 =============================================
  python functions 
+
+nested function ---> function  with in a function known as nested function  
+
+
+
  type of arguments 
-
-
+ orbitary arguments 
+  keyword arguments 
+  
  there  are 4 arguments
- positional arguments 
+ positional arguments or nested function 
  keyword arguments
  default arguments ---> we are providing   default values for  our positional arguments  
  variable length arguments 

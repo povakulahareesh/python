@@ -2,7 +2,7 @@
 #     pass
 # # pass can maintain dummy block
 
-# =====================
+# ====================================
 #  functions are code re-usability 
 #  once funtion will be created we invoke n no of times 
 # def add():
@@ -17,25 +17,25 @@
 
 # def add(a,b):# parameters 
 #     print(a+b)
-#     #  at the time of invoking function we are passing some arguments and receivingb through parameters 
+#     #  at the time of invoking function we are passing some arguments and receiving through parameters 
 #     #   
 # add(1,2)  #arguments    
 # add(11,22)    
 # add("heloo","mamayya ") 
 # 
-# ========================
+# ==========================================
 #  function can take n no of parameters 
   
 
 # def wish(a,b,c,d):
 #     #  at the time  of invoking  execute some business logic 
 #     #  finally return some value 
+#  when we give return  we must assign variable to  function  and print 
 #     return  100
 # result=wish(1,2,3,4)
 # print(result)
 
 # -====================================
-
 
 # def wish(a,b,c,d):
 #     #  at the time  of invoking  execute some business logic 

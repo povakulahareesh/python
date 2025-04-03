@@ -1,9 +1,11 @@
-# # // positional arguments 
+#// positional arguments
+ 
 # def add (a,b):
 #     # print(a-b)
 #      print(a+b)
-#     #  argument position meands + and - 
+#     #  argument position means + and - 
 #     #   if we are changing  the argument  position  what happen here  we are getting different values
+#  if we dont want bdifferent values we can use keyword arguments
 #     #  if we change the position  we are getting  different values 
 # add(10,20)    
 # add(20,10)    
@@ -11,18 +13,29 @@
 
 # key word arguments 
 
-# def add (a,b):  
-#  print(a-b)
-# #  print(b-a)
-# #  print(a+b)
-# #  position means like addition , substraction 
-# # priviously  if we change the position of  arguments we are getting different results 
-# #  even we are changing  the position differently but we are declaring as a     keyword arguments    
-# # a&b is a keyword arguments 
-# #  a,b is parameter or formal arguments  
+def add (a,b):  
+ print(a-b)
+#  print(b-a)
+#  print(a+b)
+#  position means like addition , substraction 
+# priviously  if we change the position of  arguments we are getting different results 
+#  even we are changing  the position differently but we are declaring as a     keyword arguments    
+# a&b is a keyword arguments 
+#  a,b is parameter or formal arguments  
 
-# add(a=10,b=20)    
-# add(b=20,a=10) 
+add(a=10,b=20)    
+add(b=20,a=10) 
+# ==================================
+#  keyword arguments 
+#  output in the form of dictionary 
+#  when we want to give arguments to parameter in this form (a=1,a=2) we can use (**a)
+def func (**a):
+    print(a)
+func(a=1,b=2)    
+
+
+
+
 # ===========================================
 
 # def add (a,b,c):
@@ -30,7 +43,7 @@
 # add(a=10,b=20,c=30)  
 # =====================
 # default argument 
-#  we are providing default value for our  positional atrguments  
+#  we are providing default value for our  positional arguments  
 #  default value 
 
 
@@ -39,7 +52,9 @@
 # add(a=10,b=20)  
 # ===================================
 
-#  variable length arguments (*)
+#  variable length arguments (*) or orditary arguments 
+#  when we want to give   multiple arguments on single parameter we can use orbitary arguments (*a)
+
 # def add (*a):
 #     print(a)
 # add(10)    

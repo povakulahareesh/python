@@ -1,5 +1,5 @@
 function --> inner function ---> recursive function ---> lambda function or anonymous --> name less 
-ananymous function and  decarator nad generator 
+ananymous function and  decarator and  generator 
 
 
 python functon variables are two types 

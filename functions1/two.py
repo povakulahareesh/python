@@ -41,7 +41,6 @@
 what is a,b,c: formal arguments 
 what is 10,20,30: actual  arguments /positional arguments 
 
-
 '''
 
 

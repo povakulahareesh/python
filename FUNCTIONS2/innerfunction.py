@@ -1,7 +1,7 @@
 # function within a function klnown as inner function  
 # inside a function we are writting one more function   known as inner function 
 #  what is inner function ?--> inside afunction we are writing a function
-#   
+#   inner function or nested function 
 
 # def outer():
 #     print("outer function ")
@@ -15,7 +15,7 @@
 
 # how to execute  inner function  out side the function ?
 #  every function have one address is there 
-
+#  knowing function id 
 # def mall():
 #     pass
 #     print(id(mall))
@@ -24,12 +24,12 @@
 #     def store2():
 #         pass
 #     print(id(store1))
-#     print(id(store2))
+#     print(id(store2))#  knowing function id 
 # mall()
 # # print(id(mall))
 # # print(id(mall()))
-# ============================================
-# how to execute  inner function  out side the function ?
+# ============================================>
+# how to execute  inner function  out side the function ?--- using  return keyword and function name 
 
 
 # def outer():
@@ -54,6 +54,7 @@
 # local variable and global variable
 
 # local variable
+#  it can t access outside the variable 
 # def account ():
 #     min_bal=500  # scope is within the function
 #     print(min_bal)#
@@ -104,17 +105,17 @@
 #  how to convert local variable as  global 
 #  convert local variable to global 
 
-def fun1():
-    #  using global keyword  we can convert local  variable to  global variable 
-    #  we are convertying local variable to global
-    #  what is the need of global keyword  to declare globle variable as inside a function
-    #  
-    global a
-    a=100
-def fun2():
-    print(a)
-fun1()        
-fun2()        
+# def fun1():
+#     #  using global keyword  we can convert local  variable to  global variable 
+#     #  we are convertying local variable to global
+#     #  what is the need of global keyword  to declare globle variable as inside a function
+#     #  
+#     global a
+#     a=100
+# def fun2():
+#     print(a)
+# fun1()        
+# fun2()        
 
 
 
