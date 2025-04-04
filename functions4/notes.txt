@@ -1,0 +1,5 @@
+reduce are also similar to like filter
+  what is reduce function 
+ reduce()---> it can reduce single element 
+reduce function reduceing the  sequence of elements  into a single element 
+reduce excepting one function and sequence  
