@@ -1,0 +1,4 @@
+ what is decorator ?
+  decorator is a function  it take one function as a arguments
+  , and modify function and return modify function 
+  
