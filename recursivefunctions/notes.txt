@@ -1,0 +1,2 @@
+recursive function--> means --> the function call itself known as recursive function
+-- a function that calls it self known as recursive  function 

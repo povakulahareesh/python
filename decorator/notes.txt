@@ -2,3 +2,77 @@
   decorator is a function  it take one function as a arguments
   , and modify function and return modify function 
   
+  we can take any name for decorator 
+
+  like 
+  @ modify,@please_check,,@hloo
+
+
+  ===================================================================================
+
+  '''
+ decorator is a function  take one function  nothing but divide function as a argument  
+ inside one function is there  it is doing some business logic  return that function reference 
+
+ decorator is similar to  our inner function only 
+ 
+ decorator is a function   take one function as a  argument  and return modified function 
+'''
+
+ 
+
+ decorator is going to execute  and modify the  existing function  and return the modified
+
+ =============================
+ we are discussing about inner function 
+
+
+  def outer ():
+  def inner():
+  pass
+   # its going to return inner function reference 
+   return inner  
+   // how to execute outer function using  outer()
+   // am going to call the outer function  so it is going to return inner function reference 
+   am getting here x value   
+
+return inner 
+x=outer()
+x()
+=======================================
+ ex:
+  def outer(): 
+    def inner ():
+          pass
+    return inner (reference)--> it is going return some   inner function reference only
+    // am going to execute outer
+    outer()
+===================================
+decorator:
+
+
+# def hii(func):
+#     def inner(a, b):
+#         if b == 0:
+#             print("hlo mama")
+#         else:
+#             return func(a, b)  # ✅ Call the original function
+#     return inner  # ✅ Return the wrapper
+
+# @hii
+============================================
+ def outer():
+   def inner():
+       pass
+return inner 
+outer()       
+
+==========================================
+decorator is a function it takes one function  as a argument  and it modify function and return modified function ref
+
+
+
+============================================
+
+
+
