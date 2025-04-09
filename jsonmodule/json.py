@@ -14,14 +14,15 @@ json follows js script datatype
 # f.close()
 
 
-fp=open('ha.txt','r')
-fp1=open('hamma.txt','w')
-data=fp.read()
-print(data)
-fp1.write(data)
-print("file creted")
-fp.close()
-fp1.close()
+# fp=open('ha.txt','r')
+# fp1=open('hamma.txt','w')
+# data=fp.read()
+# print(data)
+# fp1.write(data)
+# print("file creted")
+# fp.close()
+# fp1.close()
+
 
 
 

@@ -1,0 +1,32 @@
+
+filehandling
+how to handle json module
+csv,text,msword,msexel
+csv --> Comma-Separated Values,Comma-Separated Version,
+
+
+json file-->{"eid":101,"ename":"rg"}
+
+json file:
+json.load,   dump
+json.loads ,dumps
+
+csv file --> eid,ename,esal
+101,ww,122344
+
+csv module :
+
+csv.reader()
+csv.writer()
+csv.writerow()
+
+
+ write py script 
+ read csv file& print all employee names
+
+
+
+import requests
+import json
+import csv
+
