@@ -30,3 +30,33 @@ import requests
 import json
 import csv
 
+
+file handling --> with > txt,csv,json,rest api
+error handling--> in python--> try,execpt, arise,finally
+
+
+
+//====================
+error handling
+
+try---> risky block
+execpt --> handling code
+raise ---> for handling custom errors
+finally  ----> this will be execute always----> manadatory code 
+
+
+errors 
+
+zerodivision errors
+value errors
+nome error
+
+
+// how to create custom error in python 
+
+
+
+
+
+
+
