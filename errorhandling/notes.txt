@@ -39,10 +39,14 @@ error handling--> in python--> try,execpt, arise,finally
 //====================
 error handling
 
+try and execpt --> handling errors'
+finally --> it is a  manadatory code 
+
 try---> risky block
-execpt --> handling code
+execpt --> handling code    // alternate code 
 raise ---> for handling custom errors
 finally  ----> this will be execute always----> manadatory code 
+raise---->handling custom errors---> used for throwing the custom errors 
 
 
 errors 
