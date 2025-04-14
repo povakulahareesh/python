@@ -1,7 +1,9 @@
 import random
 #  using help random  we know random methods  random() method of Random instance
-# help(random)
+help(random)
 # for i in range(10):
+#     print(random(10,20))
+    
 print (random.randint(1000,9999))
 
 # ========================================

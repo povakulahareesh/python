@@ -41,7 +41,7 @@ error handling
 
 try and execpt --> handling errors'
 finally --> it is a  manadatory code 
-
+ raise =---> is for we are reating and throwing errors 
 try---> risky block
 execpt --> handling code    // alternate code 
 raise ---> for handling custom errors
