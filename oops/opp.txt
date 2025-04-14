@@ -1,0 +1,18 @@
+ python is a general purpose programming language 
+ any realtime entity as a object 
+ using class we can create object 
+class is blueprint to create objects 
+once object is created memeory allocation will be allocated 
+id(a1)---> we are getting address 
+class contains  variables and methods 
+ to solve realworld problems using object oriented programming
+python supporting scripting programming language
+python supporting functional programming language
+python supporting oops programming language
+
+
+clas account:
+varaiables and methods
+to construct object
+a1=account()
+id(a1)
