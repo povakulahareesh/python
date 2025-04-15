@@ -1,0 +1,30 @@
+ error are three types :
+ complile time error
+logical error
+run time error
+
+
+compile time error--> we can face those errrors at compile time 
+
+syntatical errors
+eg:
+
+missing(:)
+
+logical means ur code gets compiled  ur code also   gives the output  but the problem is it will not be a currect output
+
+logical error:
+worng otput 
+
+
+run time error 
+ in runtime error the  code gets compiled  with no syntatical error  tour code is not  acctually giving  you a logical  a well everything is working 
+
+// runtime error means  it can't divide by zero 
+eg:
+divide by zero
+
+// code was working some where  between we are getting  errror thats our run time errror 
+run time:we are gettting errror  at runtime 
+
+

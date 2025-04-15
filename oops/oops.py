@@ -20,38 +20,34 @@
 # ============================================================
 
 
-# class Acc:
-#     a=10
-#     b=20
-# a1=Acc()
-# print(a1) 
-#    
-# class Account:
-#     a="hhhh"
 
-#     def open_Acc(self):
-#         #  self :Access instance variables
-#         #  self : self is a pointer pointing to the current object inside class to access class memebers 
-#         #  self  is a key word to access class members inside a class & out side a class object 
-#         print("account opened ")
+class Account:
+    a="hhhh"
+
+    def open_Acc(self):
+        #  self :Access instance variables
+        #  self : self is a pointer pointing to the current object inside class to access class memebers 
+        #  self  is a key word to access class members inside a class & out side a class object 
+        print("account opened ")
         
-#     def deposit_Amount(self):
-#         print("amount deposited")
-#     def withdrawl(self):
-#         print("withdrawl succeess")
-# a1=Account() 
-# a1.open_Acc()       
-# a1.deposit_Amount()      
-# a1.withdrawl()   
-# #  printing object in the form of dict    
-# print(a1.__dict__)
+    def deposit_Amount(self):
+        print("amount deposited")
+    def withdrawl(self):
+        print("withdrawl succeess")
+a1=Account() 
+#  with help of object we can acceess class methods 
+a1.open_Acc()       
+a1.deposit_Amount()      
+a1.withdrawl()   
+#  printing object in the form of dict    
+print(a1.__dict__)
 # __dict__ print all class members in the form of string 
-# #  printing class   info  in the form of dict 
-# print(Account.__dict__)
+#  printing class   info  in the form of dict 
+print(Account.__dict__)
 
 # ====================================
 
-class Employee:
-    ''' employeee class will be created  '''
-    def get_emp_details(self):
-        pass
+# class Employee:
+#     ''' employeee class will be created  '''
+#     def get_emp_details(self):
+#         pass

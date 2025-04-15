@@ -16,3 +16,15 @@ varaiables and methods
 to construct object
 a1=account()
 id(a1)
+
+
+# variables ---> are three types -->  static,class , instance 
+ self is there known as instance method
+ @class method decorator is there known as class method
+ @static method  decorator is there known as static method
+ 
+#  methosds: instance method(),class ,static 
+
+
+
+constructor---> is a special method to initialize object values 
