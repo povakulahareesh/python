@@ -11,6 +11,12 @@ python supporting functional programming language
 python supporting oops programming language
 
 
+
+oops-- to solve realworld problems
+
+
+
+
 clas account:
 varaiables and methods
 to construct object
@@ -20,6 +26,8 @@ id(a1)
 
 # variables ---> are three types -->  static,class , instance 
  self is there known as instance method
+ Declared inside a class ---> known as static variable
+ we Declared variable outside any instance methods.
  @class method decorator is there known as class method
  @static method  decorator is there known as static method
  

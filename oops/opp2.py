@@ -1,3 +1,18 @@
+# class Account:
+#     '''claass created by Narasimha'''
+
+#     def open_account(self):
+#         pass
+#     def deposit_amount(self,amount):
+#         pass 
+#     @classmethod
+#     def update_min_bal(cls,amount):
+#         pass 
+#     @staticmethod
+#     def cal_interest():
+#         pass
+
+
 class Account:
     '''claass created by Narasimha'''
 
@@ -13,7 +28,10 @@ class Account:
         print("call")
 
 a=Account()
-
+a.open_account()
+a.deposit_amount(200)
+a.update_min_bal(77)
+a.cal_interest()
 # print(a.__dict__)
 # print(Account.__dict__)
 
@@ -45,6 +63,27 @@ a=Account()
 #     @classmethod
 #     def update_test(cls): 
         
+# class Text:
+#     def __init__(self,id,name,sal):
+#         self.acc_id=id
+#         self.acc_name=name
+#         self.acc_bal=sal
+#     def deposit_amount(self,amount):
+#         self.acc_bal=self.acc_bal+amount
+            
+        
+# a=Text(11,"hhh",2000)
+# a.deposit_amount(100)
+# print(a.__dict__)
 
 
 
+# class Text:
+#     '''class created by hareeesh '''
+#     a=10
+#     def __init__(self):
+#         self.b=20
+#         self.c=30
+#     def m1(self):
+#         self.d=90
+# t1=Text()            
