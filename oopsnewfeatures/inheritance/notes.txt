@@ -1,0 +1,77 @@
+
+Syntax for Inheritance
+In Python, inheritance is implemented by passing the parent class as an argument to the child class.
+
+Example of Single Inheritance
+Types of Inheritance in Python
+Single Inheritance: A child class inherits from one parent class.
+
+class Parent:
+    pass
+
+class Child(Parent):
+    pass
+
+
+Multiple Inheritance: A child class inherits from multiple parent classes
+
+class Parent1:
+    pass
+
+class Parent2:
+    pass
+
+class Child(Parent1, Parent2):
+    pass
+
+
+Multilevel Inheritance: A class inherits from a child class, forming a chain.
+
+class Grandparent:
+    pass
+
+class Parent(Grandparent):
+    pass
+
+class Child(Parent):
+    pass
+
+  Hierarchical Inheritance: Multiple child classes inherit from a single parent class.
+
+  class Parent:
+    pass
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+   
+    
+Hybrid Inheritance: A combination of two or more types of inheritance.
+
+Using super() to Access Parent Methods
+The super() function is used to call a method from the parent class in the child class.
+
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)  # Call the parent class's constructor
+        self.breed = breed
+
+dog = Dog("Buddy", "Golden Retriever")
+print(dog.name)  # Output: Buddy
+print(dog.breed)  # Output: Golden Retriever
+
+
+
+
+Key Points:
+Inheritance allows code reuse and helps in organizing code logically.
+The isinstance() and issubclass() functions can be used to check relationships between objects and classes.
+Python supports multiple inheritance, but it uses the Method Resolution Order (MRO) to determine the order in which classes are searched for a method or attribute.

@@ -1,12 +1,16 @@
-#  class contains variables and methods we call as classs memebers
+#  class contains variables and methods we call as class memebers
 #  methods means function
+
 '''class Account:
-variable+metyhod
+variable + method
 a=account()
-print(a)'''
+print(a)
+
+'''
 
 
 # =======================================================
+
 # class Account:
 #     min=200
 #     def op(self):
@@ -17,13 +21,16 @@ print(a)'''
 # a.op()
 # a.ca()
 # print(a.min)
+
 # ============================================================
 # '''🧠 What is __doc__ in Python?
+
 # The __doc__ attribute stores the docstring of a module, class, method, or function.
 
 # A docstring is just a special string (usually at the top) that explains what the code does — like a built-in comment or help message.'''  
       
 
+# The __doc__attribute stores the docstring
 
 # class Account :
 #     #  i am write a docstring
@@ -101,23 +108,23 @@ print(a)'''
 #  normal method we can write business logic 
 #  consructor method   is used to initialize the variables 
 #   constructor are going to execute at the time of object creation  to initialize object values
-class Employee: 
-    ''' required special method  to initialize object values '''
-    def __init__(self,id,name,sal):
-        self.username=id
-        self.userid=name
-        self.usersal=sal
-        print(" contructor method executing ")
-    def open_account(self):  
-        print("account opened")  
-a1=Employee(102,"harish",3000)
-#  normal method we can invoke n no of times 
-a1.open_account()
-a1.open_account()
-a1.open_account()
-a1.open_account()
+# class Employee: 
+#     ''' required special method  to initialize object values '''
+#     def __init__(self,id,name,sal):
+#         self.username=id
+#         self.userid=name
+#         self.usersal=sal
+#         print(" contructor method executing ")
+#     def open_account(self):  
+#         print("account opened")  
+# a1=Employee(102,"harish",3000)
+# #  normal method we can invoke n no of times 
+# a1.open_account()
+# a1.open_account()
+# a1.open_account()
+# a1.open_account()
 
-print(a1.__dict__)
+# print(a1.__dict__)
 
 # ============================================
 
@@ -139,7 +146,7 @@ print(a1.__dict__)
 # ===========================================================
 # class Employee: 
 #     ''' required special method  to initialize object values '''
-#     def __init__(self,id,name,sal):
+#     def__init__(self,id,name,sal):
 #         self.username=id
 #         self.userid=name
 #         self.usersal=sal

@@ -1,11 +1,11 @@
- python is a general purpose programming language 
- any realtime entity as a object 
- using class we can create object 
+python is a general purpose programming language 
+any realtime entity as a object 
+using class we can create object 
 class is blueprint to create objects 
 once object is created memeory allocation will be allocated 
 id(a1)---> we are getting address 
 class contains  variables and methods 
- to solve realworld problems using object oriented programming
+to solve realworld problems using object oriented programming
 python supporting scripting programming language
 python supporting functional programming language
 python supporting oops programming language
@@ -24,15 +24,37 @@ a1=account()
 id(a1)
 
 
+
+
 # variables ---> are three types -->  static,class , instance 
- self is there known as instance method
- Declared inside a class ---> known as static variable
- we Declared variable outside any instance methods.
- @class method decorator is there known as class method
- @static method  decorator is there known as static method
+
+
+ #  if variable values are varied from object to object  known as instance variable
+ #  if variable values are notvaried from object to object  known as static variable
+  // static varaiables are created only one copy and shared to all objects 
+  // instance varaiables are created  different varaiables object to onject
+
+
+  
+
+
+self is there known as instance method
+Declared inside a class ---> known as static variable
+we Declared variable outside any instance methods.
+@class method decorator is there known as class method
+@static method  decorator is there known as static method
  
-#  methosds: instance method(),class ,static 
+#methosds: instance method(),class ,static 
+methods are three  types--->instance method, class method , static method
+variable are three types ---> instance &static & class --> is same as static     
 
 
 
 constructor---> is a special method to initialize object values 
+
+
+# The __doc__ attribute stores the docstring  
+# The __doc__ attribute  used to print docstring 
+
+
+      # #  printing class   info  in the form of dict 

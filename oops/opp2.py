@@ -12,26 +12,26 @@
 #     def cal_interest():
 #         pass
 
-
+# ============================================
 class Account:
     '''claass created by Narasimha'''
 
     def open_account(self):
         print("account created")
     def deposit_amount(self,amount):
-        print("amount deposited ")
+        print("amount deposited ",amount)
     @classmethod
     def update_min_bal(cls,amount):
-        print("updated")
+        print("updated",amount)
     @staticmethod
     def cal_interest():
         print("call")
 
 a=Account()
-a.open_account()
-a.deposit_amount(200)
-a.update_min_bal(77)
-a.cal_interest()
+# a.open_account()
+# a.deposit_amount(200)
+# a.update_min_bal(77)
+# a.cal_interest()
 # print(a.__dict__)
 # print(Account.__dict__)
 
@@ -42,26 +42,24 @@ a.cal_interest()
 # a.cal_interest()       
 
 #  how to accesss class method  using object  and class name 
+
 # a.update_min_bal(600)
 # Account.update_min_bal(600)
+
+# a.open_account()
+# Account.open_account(a) # it is the correct way 
+# Account.open_account()# — ❌ Error unless you pass an object
 
 #  constructor 
 # ======================================
 
 # is a special method to initialize object  values 
-#  will execute only once automatically  at the time of object cfreation 
+#  will execute only once automatically  at the time of object creation 
 # we can invoke  constructor  method explicitly 
 
 #  
 
 
-# class Test:
-#     def __init__(self):
-#         print("special method")
-#     def get_detailes(self):  
-#         print("hhjjj")  
-#     @classmethod
-#     def update_test(cls): 
         
 # class Text:
 #     def __init__(self,id,name,sal):

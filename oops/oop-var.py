@@ -2,7 +2,7 @@
 
 #  how to create class method using class method decorator 
 #  how to create static method using static method decorator 
-#  ent objectself is a ponter pinting to current object 
+#  self is a ponter pointing to current object             
 #  to refer  your class  members inside a class self  
 #  to refer  your class  members outside a class object     
 class Account:
