@@ -1,0 +1,25 @@
+encapsulation  is a one of the principle oops concept 
+
+// encapsulation means ---> combining related things in to a single unit  
+set of things ni group cheyyadamey encapsulation 
+// related things ni combine cheyyadam oka single unit gaa 
+
+
+class is a example for encapsulation 
+// data and method ni group chesi oka class lo rasthamu 
+data & methods ---> object---> class
+ why we can group data and method in class??
+
+1*code will be organized and clean
+2*prevents the data from accidental  removal & deletion---> data ni accidental modify or delete avvakunda chesthundhi
+3* abstraction 
+ encapsulation -- hides implementration logic & allows only to use 
+ 4* data hiding -- 
+ 5*modularity
+
+ combination of datahiding  + abstraction= encapsulation
+
+-- access modifiers
+--  public access specifiers 
+--  protected access specifiers 
+--  private access specifiers 
