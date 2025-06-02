@@ -98,7 +98,7 @@ map (1,2)
 
 
 -- map function execute  the function  for every element present in the sequence 
---   for every element present in the  present in the given sequence  apply some functionality and return the new element
+-- for every element present in the  present in the given sequence  apply some functionality and return the new element
 --   
 =========================================
  withoutlambda:
@@ -113,7 +113,7 @@ map (1,2)
 # print(marks)
 # print(new_marks)
 
-[====================================]
+==================================================
 
 
 with lambda:
@@ -134,3 +134,14 @@ map()--> for every element we are return  new element go with the map  only
  filter()----> to filter your data result is boolean result then we go  with the  filter    
  to filter the values from the given sequence  we are going to use filter 
  reduce()---> it can reduce single element 
+
+=================================================================
+ reduce function 
+
+ reduce() - reduce sequence of elements into a single elements 
+reduce(function, sequence)
+
+
+
+
+

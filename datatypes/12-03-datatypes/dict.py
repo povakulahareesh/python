@@ -1,12 +1,13 @@
 # colection keys and values as one entity
-# key should be immutable vales are mutable
+# key should be immutable values are mutable
+# duplicate keys are not allowed , duplicate values are allowed
 # key will act as index
 # no slicing
 
 
 
 # if we want to represent key  values as one entity
-# duplicate keys are not allowed
+
 # 
 
 

@@ -31,7 +31,15 @@
 #  to filter the data we are going to use filter function 
 
 
-numbers =[1,2,3,4,5,6,7,8,9,10]
+# numbers =[1,2,3,4,5,6,7,8,9,10]
 
-print(list(filter(lambda number: number%2!=0,numbers)) )   
-print(numbers)
+# print(list(filter(lambda number: number%2!=0,numbers)) )   
+# print(numbers)
+
+
+
+from   functools  import reduce
+
+nums = [1, 2, 3, 4]
+total = reduce(lambda x, y: x + y, nums)
+print(total)  # 10

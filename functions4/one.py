@@ -45,15 +45,59 @@
 
 
 
-def outer():
-    print('outer function')
-    def inner():
-        print('inner function')
+# def outer():
+#     print('outer function')
+#     def inner():
+#         print('inner function')
 
-        #  return inner function reference 
-    return inner
-inner=outer()
-#  outer function reference inner function reference 
+#         #  return inner function reference 
+#     return inner
+# inner=outer()
+# #  outer function reference inner function reference 
 
-inner()
-inner()
+# inner()
+# inner()
+
+# ==================================================================
+
+
+# def   user_uppercase(add):
+#     def innner():
+#         msg=add()
+#         return  msg.upper()
+#     return innner 
+# @user_uppercase 
+# def add():
+#     return "hii rahul thathooi"
+# print(add())
+# ======================================
+
+# def user_uppercase(add):
+#     def inner():
+#         a=add()
+#         return a.upper()
+#     return inner
+# @user_uppercase
+# def add():
+#     print("hloo jagan")
+# add()
+
+
+
+#  manam am decorator thisukuntey adhey decorator name thisukovali 
+
+
+def my_decorator(func):
+    def wrapper():
+        print("Before the function runs")
+        a=func()
+        print("After the function runs")
+        return a
+    return wrapper
+
+my_decorator
+def say_hello():
+    print("Hello!")  # manually decorate the function
+
+say_hello()
+

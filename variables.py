@@ -63,8 +63,59 @@
 
 # multiple variables
 
-a,b,c=1,2,3
-print(a,b,c)
+# a,b,c=1,2,3
+# print(a,b,c)
 # print(a)
 # print(b)
 # print(c)
+
+
+
+'''
+✅ Rules for Naming Variables:
+
+Variable names are case-sensitive (Name and name are different).
+
+Must start with a letter or an underscore _.
+
+Cannot start with a number.
+
+Can contain letters, numbers, and underscores.
+
+Cannot be a Python keyword (like if, while, class, etc.)
+
+don't use keyword as a variable name
+
+'''
+
+# # ✅ Valid:
+# my_name = "Hareesh"
+# _age = 22
+# student1 = "John"
+# print(my_name)
+# print(_age)
+# print(student1)
+
+
+
+# ❌ Invalid:
+# 1name = "Sam"      # starts with a number
+# class = "BSc"      # 'class' is a keyword
+
+
+
+'''✅ Dynamic Typing:
+
+Python is dynamically typed, which means:
+
+You can assign any type of value to a variable.
+
+You can even change the type later.'''
+
+# x = 10        # integer
+# x = "Hello"   # now it's a string
+# print(x)
+
+
+
+

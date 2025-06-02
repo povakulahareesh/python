@@ -9,6 +9,21 @@
 # iterater using for loop and while loop
 # it is mutable
 
+
+'''1. Homogeneous collection in Python
+A collection where all elements are of the same data type.
+
+numbers = [1, 2, 3, 4, 5]      # List of integers — homogeneous
+names = ["Alice", "Bob", "Eve"] # List of strings — homogeneous
+
+2. Heterogeneous collection in Python
+A collection where elements are of different data types.
+
+mixed_list = [1, "apple", 3.14, True]  # List contains int, string, float, bool — heterogeneous
+
+
+'''
+
 # gitignore,
 
 # uids=[1,2,3,4,5,6,7,8,99,33,443,"fghjk","fghjk"]
@@ -36,13 +51,14 @@
 
 # update list elements
 
-# eids=["fd","trews","gfd","fds","true",True]
+eids=["fd","trews","gfd","fds","true",True]
 # eids[3]="hjklkjhg"
 # print(eids)
 
 # delete  list elements
 
-
+del eids[0]
+print(eids)
 
 # eids=["fd","trews","gfd","fds","true",True]
 # eids.pop(0)

@@ -1,11 +1,13 @@
 
-#arithmetic operators-->+,-,*,/,%, **
+#arithmetic operators-->+,-,*,/,//,%, **
 # relational-->   ,<,> <=,>=
 # logical--> and &Or
 # equality--> ==
 # assignment-->=
 # special op--> identity op& is,is not ---> like a comparission 
+#  identity operator --> is, is  not
 # membership op-->in ,not in ----> if we want to check given  data in our variable are not 
+# membership op-->in ,not in ----> to verify particular  number present is there or not 
 # bitwise op 
 
   
@@ -54,17 +56,17 @@
 # print(d+e)
 
 
-# a=(66,33,45,67,8,122,2,)# duplicates are  not allowed
-# eids={22,33,44,556,77,88,}
-# enames=["ds","rew","5rew","fds"]
-# hii="haruedds"
-# print("h" in hii)
-# print("ds" in enames)
-# print("d" in enames)
-# print("d"  not in enames)
-# print("ds" is not enames) #is used for comparission
-# # print("ds" is "ds")
-# # is address comparision
+a=(66,33,45,67,8,122,2,)# duplicates are  not allowed
+eids={22,33,44,556,77,88,}
+enames=["ds","rew","5rew","fds"]
+hii="haruedds"
+print("h" in hii)
+print("ds" in enames)
+print("d" in enames)
+print("d"  not in enames)
+print("ds" is not enames) #is used for comparission
+# print("ds" is "ds")
+# is address comparision
 
 
 
@@ -128,3 +130,102 @@
 # # # first one is false always false 
 
 # print(True>False)
+
+
+
+# # a=10
+# b="20" # type error 
+# a="209" # type error 
+# # b=20
+# print(a*b)
+
+#  addition
+
+
+
+#  multiplication 
+
+# a=10
+# b=10
+# print(a*b)
+
+
+
+# a=10
+# b="10"
+# print(a*b)
+
+#  now we get type error 
+# a="10"
+# b="10"
+# print(a*b)
+
+
+
+# a=10
+# b="10"
+# print(a%b)
+
+# a=9.5
+# print(Math.ceil(a))
+# print(floor(a))
+
+# from math import ceil, floor
+
+# a = 9.3
+# print(ceil(a))   # 10
+# print(floor(a))  # 9
+
+# 
+
+# a = (66, 33, 45, 67, 8, 122, 2)  # Tuple
+# eids = {22, 33, 44, 556, 77, 88}  # Set
+# enames = ["ds", "rew", "5rew", "fds"]  # List
+# hii = "haruedds"  # String
+
+# print("h" in hii)          # True — 'h' is in the string
+# print("ds" in enames)      # True — 'ds' is in the list
+# print("d" in enames)       # False — 'd' is not an item in the list
+# print("d" not in enames)   # True — same reason as above
+
+
+# a="dfghjklkjhgfd"
+# print("d" not in a)
+
+
+
+#  membership operator
+
+
+# eids=[101,102,103,104,101]  # list duplicate are allowed
+# print(102 in eids)   #True
+
+# enames=("Rahul","Sonia","Priya")
+# print("Modi" in enames)  #False
+
+# uids={101,101,101,102}  #set-duplicates not allowed
+# print(105 not in uids)  #True
+
+# ename="Salman Khan"
+# print('b' in ename)  # False
+
+
+
+
+
+# print(range(0,10))
+# a=range(20)
+# print(a)
+
+
+
+# for i  in range(1,11):
+#     print(i)
+
+
+
+
+
+
+
+

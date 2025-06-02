@@ -1,5 +1,7 @@
 
 # set 
+
+#  set is a mutable
 # group of elements  as one entity
 # duplicates are not ALLOwed 
 # heterogeneous elements are allowed
@@ -11,14 +13,27 @@
 
 
 
-s={}
-w={11}
-eids={"fd","trews","gfd","fds","true",True}
+# s={}
+# w={11}
+# eids={"fd","trews","gfd","fds","true",True}
 
-print (type(s))
-print (s)
-print (w)
-print (eids)
+# print (type(s))
+# print (s)
+# print (w)
+# print (eids)
+
+
+# #  how to create empty set: using set ()  keyword
+
+# a=set()
+# b={}
+# print(a)
+# print(type(a))
+# print(b)
+# print(type(b))
+
+
+
 
 
 # # eids[0]="rds" //type error

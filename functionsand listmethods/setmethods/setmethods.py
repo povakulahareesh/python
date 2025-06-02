@@ -129,7 +129,7 @@ if element  is not present  it doesn't display error
 # s1={10,20,30,40}
 # s2={30,40,50,60}
 # print(s1.union(s2)) #duplicates are not allowed
-# print(s1.intersection(s2)) # only duplicates can out put
+# print(s1.intersection(s2)) # only duplicates can get  output
 # print(s1.difference(s2))  #  duplicate value remove in s1
 # print(s2.difference(s1)) # duplicate value remove in s2
 # print(s1.symmetric_difference(s2)) # duplicates remove in those s1&s2     
@@ -137,13 +137,13 @@ if element  is not present  it doesn't display error
 
 
 
-s1={10,20,30,40}
-s2={30,40,50,60}
-print(s1|s2) #or operator
-print(s1 and s2)
-print(s1-s2)
-print(s2-s1)
-print(s1^s2)
+# s1={10,20,30,40}
+# s2={30,40,50,60}
+# print(s1|s2) #or operator
+# print(s1 and s2)
+# print(s1-s2)
+# print(s2-s1)
+# print(s1^s2)
 
 
 

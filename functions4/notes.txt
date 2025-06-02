@@ -32,7 +32,7 @@ NameError: name 'inner' is not defined. Did you mean: 'iter'?
 
 what is decorator ?
 
-decorator is a function  and it takes  one function as a argument  and modify the function  and retur the modified functionality 
+decorator is a function  and it takes  one function as a argument  and modify the function  and return the modified functionality 
 
 
 

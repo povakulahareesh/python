@@ -3,6 +3,8 @@
  inside one function is there  it is doing some business logic  return that function reference 
 
  decorator is similar to  our inner function only 
+
+# decorator is a function and return modified function 
  
  decorator is a function   take one function as a  argument  and return modified function 
 '''
@@ -52,5 +54,4 @@
 
 
 # ===============================================================================
-
 

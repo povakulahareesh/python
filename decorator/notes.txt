@@ -72,7 +72,39 @@ decorator is a function it takes one function  as a argument  and it modify func
 
 
 
-============================================
+==============
+==============================
+
+page check is a decorator
+
+# def page_check(func):
+#     def inner(name,login):
+#         if login == False:
+#             print("please try to login first")
+#         else:
+#             return func(name,login) 
+#         return inner
+
+// def outer():
+ def inner ():
+ pass
+ return inner 
+ outer
+===============================================
+
+recursive function:
+
+ recursive function:---> a function call it self   known as a recursive function 
 
 
+ def factorial
+ 
+
+ fact(5)---> 5*4*3*2*1=120
+ fact(6)--> 6*5*4*3*2*1=720
+
+  def factorial (n):
+  pass
+   result =factorial(6)
+   print(result)
 
