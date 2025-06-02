@@ -1,0 +1,5 @@
+reduce function:
+
+reduce() - reduce sequence of elements into a single elements 
+
+reduce(function, sequence)

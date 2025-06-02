@@ -1,0 +1,52 @@
+ map(),filter(),reduce()
+
+what is map function
+map is a inbuilt function 
+
+map(function, iterator)
+
+map except one function and iterator  or sequence
+
+map (1,2)
+-- first argument is function 
+-- second argument is  iterable object 
+--   (or) we can say it is a sequence only 
+
+
+-- map function execute  the function  for every element present in the sequence 
+-- for every element present in the given sequence  apply some functionality and return the new element
+--   
+=========================================
+ withoutlambda:
+
+ # marks=[1,2,3,33,44,55]  # sequence 
+# def add (mark):  # function 
+#     return mark+1
+# # print(add(2))
+# map_obj=map(add,marks) # now we are  getting map object
+# new_marks=list(map_obj)
+
+# print(marks)
+# print(new_marks)
+
+==================================================
+
+
+with lambda:
+ for every element present in the  sequence apply some functionality  and generate new element  
+#  map function return one map object convert into list type 
+
+
+
+# marks=[1,2,3,4,5,6,7]
+# print(marks)
+# print(list(map(lambda mark:mark+1,marks)))
+
+==============================================
+these are exceptiong one function and sequence 
+map()--> for every element we are return  new element go with the map  only  
+ map()--->for  every element  we are excepting  some new value that case we are going to use map  
+ filter()--> if we are excepting always some boolean results
+ filter()----> to filter your data result is boolean result then we go  with the  filter    
+ to filter the values from the given sequence  we are going to use filter 
+ reduce()---> it can reduce single element 

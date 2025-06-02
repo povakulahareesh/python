@@ -36,8 +36,8 @@
 #   we must assign variable for lamda 
 
 
-a=lambda year:2025-year
-print(a(2000))
+# a=lambda year:2025-year
+# print(a(2000))
 
 
 

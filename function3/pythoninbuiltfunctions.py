@@ -1,12 +1,7 @@
 '''
-Skip to content
-Open sidebar
 
-ChatGPT
+python inbuilt functions:
 
-You said:
-python inbuilt functions
-ChatGPT said:
 Python has many built-in functions that make coding easier. Here are some commonly used ones:
 
 1. Input/Output Functions
@@ -43,7 +38,8 @@ sum() – Returns the sum of elements in an iterable.
 
 divmod(x, y) – Returns quotient and remainder.
 
-4. Sequence Functions
+4. Sequence Functions:
+
 len() – Length of an object.
 
 sorted() – Returns a sorted list.
@@ -54,7 +50,10 @@ enumerate() – Returns an iterator with index-value pairs.
 
 zip() – Combines multiple iterables.
 
+
 5. Iteration and Functional Programming
+
+
 map(func, iterable) – Applies function to elements.
 
 filter(func, iterable) – Filters elements using a function.
@@ -62,6 +61,7 @@ filter(func, iterable) – Filters elements using a function.
 reduce(func, iterable) (from functools) – Reduces a sequence.
 
 any(), all() – Logical functions.
+
 
 6. Object and Class Related
 type() – Returns the type of an object.
@@ -90,20 +90,5 @@ eval() – Evaluates a Python expression.
 exec() – Executes a Python script.
 
 Want examples of any? 😊
-
-
-
-
-
-
-Search
-
-Reason
-
-
-ChatGPT can make mistakes. Check important info.
-?
-
-
 
 '''

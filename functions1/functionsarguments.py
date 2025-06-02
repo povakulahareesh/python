@@ -13,25 +13,25 @@
 
 # key word arguments 
 
-def add (a,b):  
- print(a-b)
-#  print(b-a)
-#  print(a+b)
-#  position means like addition , substraction 
-# priviously  if we change the position of  arguments we are getting different results 
-#  even we are changing  the position differently but we are declaring as a     keyword arguments    
-# a&b is a keyword arguments 
-#  a,b is parameter or formal arguments  
+# def add (a,b):  
+#  print(a-b)
+# #  print(b-a)
+# #  print(a+b)
+# #  position means like addition , substraction 
+# # priviously  if we change the position of  arguments we are getting different results 
+# #  even we are changing  the position differently but we are declaring as a     keyword arguments    
+# # a&b is a keyword arguments 
+# #  a,b is parameter or formal arguments  
 
-add(a=10,b=20)    
-add(b=20,a=10) 
+# add(a=10,b=20)    
+# add(b=20,a=10) 
 # ==================================
 #  keyword arguments 
 #  output in the form of dictionary 
 #  when we want to give arguments to parameter in this form (a=1,a=2) we can use (**a)
-def func (**a):
-    print(a)
-func(a=1,b=2)    
+# def func (**a):
+#     print(a)
+# func(a=1,b=2)    
 
 
 
@@ -54,6 +54,8 @@ func(a=1,b=2)
 
 #  variable length arguments (*) or orditary arguments 
 #  when we want to give   multiple arguments on single parameter we can use orbitary arguments (*a)
+
+#  we can get result in the form of tuple 
 
 # def add (*a):
 #     print(a)
@@ -104,10 +106,10 @@ func(a=1,b=2)
 # =====================================
 #  keyword arguments 
 #  whenn ewe want to give  arguments  to paramenters in this form (a=1,b=2) we use(**a)
-def add(**a):
+# def add(**a):
 
-    print(a)
-add(a=1,b=2)    
+#     print(a)
+# add(a=1,b=2)    
 
 # ================================
 # def add(a,b): # function defination and parameter 

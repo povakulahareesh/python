@@ -5,6 +5,12 @@ nums = [1, 2, 3, 4]
 total = reduce(lambda x, y: x + y, nums)
 print(total)  # 10
 
+
+
+
+
+
+
 '''
 📊 Summary Table:
 Function----	Use case	----Returns

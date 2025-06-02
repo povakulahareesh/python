@@ -1,0 +1,7 @@
+map,filter, reduce can excepting , one function and sequence or  itetrator 
+
+
+map()---> for every element we expecting   some new value  in case we are going to use map
+filter()--> we are excepting  always some boolean results
+---> to filter the value from the given sequence we are going to use filter method
+

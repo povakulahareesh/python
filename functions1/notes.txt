@@ -1,7 +1,7 @@
 what is function ?
- --> group of statements for specific purpose  known as function
- -->  whenever we want we are going to invoke the function   
- --functions are code  reusability
+--> group of statements for specific purpose  known as function
+-->  whenever we want we are going to invoke the function   
+--functions are code  reusability
 -- how to create function in python ?---> using def keyword 
 using def keyword we can create function 
 -- must be maintain colon:
@@ -9,7 +9,7 @@ using def keyword we can create function
 -- how to invoke the function with the help of function name 
 -- we can invoke function n no of times 
 =-  declare function once and invoke n no of times  at the time of invoking pheronthasis and colon required ():  
---  
+-- > 
 
 def login():
 
@@ -32,10 +32,11 @@ inner function or nested function
 
 
  there  are 4 arguments
+ 
  positional arguments 
  keyword arguments
  default arguments ---> we are providing   default values for  our positional arguments  
- variable length arguments  or orbitary arguments  
+ variable length arguments  or orbitary arguments    
 
 
 
