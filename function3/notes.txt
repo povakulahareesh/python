@@ -14,7 +14,7 @@ ananymous function/nameless function:
   in python we have inbuilt function are there 
 
 
-these three functions excepting  one function as a 
+these three functions excepting  one function  and one sequence or one iterable as a 
 
   map() map excepting one function and  one iterator 
 reduce() from function tool-->  reduce also ecxepting one function  and one iterator 

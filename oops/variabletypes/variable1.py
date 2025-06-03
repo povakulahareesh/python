@@ -23,6 +23,6 @@ obj.f1()
 test.f2()
 obj.f2()
 obj.e=30
-print(test.__dict__)
+# print(test.__dict__)
 print(obj.__dict__)
 

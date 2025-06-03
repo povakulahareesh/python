@@ -92,19 +92,4 @@ page check is a decorator
  outer
 ===============================================
 
-recursive function:
-
- recursive function:---> a function call it self   known as a recursive function 
-
-
- def factorial
- 
-
- fact(5)---> 5*4*3*2*1=120
- fact(6)--> 6*5*4*3*2*1=720
-
-  def factorial (n):
-  pass
-   result =factorial(6)
-   print(result)
 

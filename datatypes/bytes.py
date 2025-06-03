@@ -24,11 +24,11 @@
 #     print (value)
 
 
-# a= bytes([2,23,44,55,55,77,88])
-# print (a)
-# print (type(a))
-# for value in a:
+a= bytes([2,23,44,55,55,77,88])
+print (a)
+print (type(a))
+for value in a:
     
-#     print (value)
+    print (value)
 
 

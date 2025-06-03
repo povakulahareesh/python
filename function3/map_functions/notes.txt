@@ -13,7 +13,7 @@ map (1,2)
 --   (or) we can say it is a sequence only 
 
 
--- map function execute  the function  for every element present in the sequence 
+-- map function execute for every element present in the sequence 
 -- for every element present in the given sequence  apply some functionality and return the new element
 --   
 =========================================

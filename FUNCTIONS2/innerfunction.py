@@ -11,6 +11,7 @@
 # outer()
 # # xyz()# we  get name error         
 
+# # print(min_bal)# # minimum balance is not there  
 # ==============================
 
 # how to execute  inner function  out side the function ?
@@ -59,8 +60,7 @@
 #     min_bal=500  # scope is within the function
 #     print(min_bal)#
 # # local variable : inside function only--> we cant invoke out side the function 
-# account()
-# # print(min_bal)# # minimum balance is not there   
+# account() 
 
 
 

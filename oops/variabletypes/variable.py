@@ -3,21 +3,21 @@
 #  if variable is not varied from object to object   go with the static variable
 
 
-# class Employee:
-#     '''hloo good morning'''
-#     org_name="TCS"
-#     def  __init__(self,id,name,sal):
-#         self.id=id
-#         self.name=name
-#         self.sal=sal
-#         print("constructor")
-# a1=Employee(11,"haribb",20000)  
-# # a2=Employee(1,"harib",2000)  
-# # a3=Employee(111,"hab",200)  
-# print(a1.__dict__)      
-# # print(a2.__dict__)      
-# # print(a3.__dict__)      
-# print(Employee.__dict__)      
+class Employee:
+    '''hloo good morning'''
+    org_name="TCS"
+    def  __init__(self,id,name,sal):
+        self.id=id
+        self.name=name
+        self.sal=sal
+        print("constructor")
+a1=Employee(11,"haribb",20000)  
+# a2=Employee(1,"harib",2000)  
+# a3=Employee(111,"hab",200)  
+print(a1.__dict__)      
+# print(a2.__dict__)      
+# print(a3.__dict__)      
+print(Employee.__dict__)      
 
 
 
@@ -38,19 +38,19 @@ create
 
 
 
-class Text :
-    def __init__(self):
-        self.a=20
-    def m1 (self):
-        self.b=20 
-    @classmethod
-    def m2 (cls):
-        pass
-    @staticmethod
-    def m3():
-        pass    
-t1=Text()
-print(t1.__dict__)
+# class Text :
+#     def __init__(self):
+#         self.a=20
+#     def m1 (self):
+#         self.b=20 
+#     @classmethod
+#     def m2 (cls):
+#         pass
+#     @staticmethod
+#     def m3():
+#         pass    
+# t1=Text()
+# print(t1.__dict__)
 
 
 

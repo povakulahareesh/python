@@ -5,3 +5,6 @@ map()---> for every element we expecting   some new value  in case we are going 
 filter()--> we are excepting  always some boolean results
 ---> to filter the value from the given sequence we are going to use filter method
 
+function: A function that returns True or False.
+
+iterable: A sequence (like list, tuple, etc.) to be filtered.
